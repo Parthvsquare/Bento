@@ -1,20 +1,13 @@
-// ╔╗ ╔═╗╔╗╔╔╦╗╔═╗
-// ╠╩╗║╣ ║║║ ║ ║ ║
-// ╚═╝╚═╝╝╚╝ ╩ ╚═╝
-// ┌─┐┌─┐┌┐┌┌─┐┬┌─┐┬ ┬┬─┐┌─┐┌┬┐┬┌─┐┌┐┌
-// │  │ ││││├┤ ││ ┬│ │├┬┘├─┤ │ ││ ││││
-// └─┘└─┘┘└┘└  ┴└─┘└─┘┴└─┴ ┴ ┴ ┴└─┘┘└┘
-
 const CONFIG = {
   // ┌┐ ┌─┐┌─┐┬┌─┐┌─┐
   // ├┴┐├─┤└─┐││  └─┐
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Parth',
   imageBackground: false,
-  openInNewTab: true,
-  twelveHourFormat: false,
+  openInNewTab: false,
+  twelveHourFormat: true,
 
   // Greetings
   greetingMorning: 'Good morning!',
@@ -23,10 +16,13 @@ const CONFIG = {
   greetingNight: 'Go to Sleep!',
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456',
+  weatherKey: '928903b85072a5e98530e7c0b151fb13',
   weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
+  weatherLatitude: '19.796892',
+  weatherLongitude: '72.745178',
+
 
   trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
   defaultLatitude: '37.775',
@@ -46,33 +42,33 @@ const CONFIG = {
     },
     {
       id: '2',
-      name: 'Mail',
-      icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      name: 'Router',
+      icon: 'share-2',
+      link: '192.168.0.1',
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'torrent',
+      icon: 'download',
+      link: 'https://1337x.to/',
     },
     {
       id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'dortania',
+      icon: 'code',
+      link: 'https://dortania.github.io/OpenCore-Install-Guide/',
     },
     {
       id: '5',
       name: 'Reddit',
-      icon: 'bookmark',
+      icon: 'arrow-up',
       link: 'https://reddit.com',
     },
     {
       id: '6',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
+      name: 'Work Git',
+      icon: 'git-branch',
+      link: 'https://github.com/biztrology/lokobee',
     },
   ],
 
@@ -81,41 +77,41 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   //Icons
-  firstListIcon: 'music',
-  secondListIcon: 'coffee',
+  firstListIcon: 'film',
+  secondListIcon: 'flag',
 
   // Links
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Netflix',
+        link: 'https://www.netflix.com/browse',
       },
       {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Hotstar',
+        link: 'http://hotstar.com/',
       },
       {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Youtube',
+        link: 'https://youtube.com/',
       },
       {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'imdb',
+        link: 'https://imdb.com/',
       },
     ],
     secondList: [
       {
-        name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        name: 'Amazon',
+        link: 'amazon.in',
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
+        name: 'Flipkart',
+        link: 'flipkart.com',
       },
       {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
+        name: '1 Lib',
+        link: 'https://1lib.in',
       },
       {
         name: 'Telegram',
@@ -124,3 +120,4 @@ const CONFIG = {
     ],
   },
 };
+
