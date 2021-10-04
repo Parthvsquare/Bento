@@ -89,7 +89,7 @@ const CONFIG = {
       },
       {
         name: 'Hotstar',
-        link: 'http://hotstar.com/',
+        link: 'https://hotstar.com/',
       },
       {
         name: 'Youtube',
@@ -97,17 +97,17 @@ const CONFIG = {
       },
       {
         name: 'imdb',
-        link: 'https://imdb.com/',
+        link: 'https://www.imdb.com/',
       },
     ],
     secondList: [
       {
         name: 'Amazon',
-        link: 'amazon.in',
+        link: 'https://www.amazon.in',
       },
       {
         name: 'Flipkart',
-        link: 'flipkart.com',
+        link: 'https://www.flipkart.com',
       },
       {
         name: '1 Lib',
