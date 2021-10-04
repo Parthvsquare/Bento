@@ -10,7 +10,7 @@
 
 :root {
   /* Fonts  */
-  --fsg: 12vh; /* Time and Greetings */
+  --fsg: 10vh; /* Time and Greetings */
   --fsm: 8vh; /* Date */
   --fss: 3vh; /* Greetings and Weather widger */
   --fses: 2vh; /* Links List */
